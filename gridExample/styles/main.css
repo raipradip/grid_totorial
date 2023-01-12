@@ -1,0 +1,18 @@
+body{
+    
+}
+
+.container{
+    width: 1021px;
+    height: 1021px;
+    background-color: darkslategrey;
+    position: relative;
+}
+.box2{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    
+    
+}

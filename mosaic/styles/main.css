@@ -1,0 +1,38 @@
+body{
+    background-color: darkslategrey;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    background-color:dimgray;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 10px;
+}
+
+.container *{
+    background: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.a{
+    grid-column: 1/13;
+}
+.b{
+    grid-column:1/5;
+    grid-row: 2/4;
+}
+.c{
+    grid-column:5/9;
+    grid-row: 2/4;
+
+}
+.d{
+    grid-column:9/13;
+    grid-row:2/5;
+}
+.e{
+    grid-column: 1/9;
+}
+
